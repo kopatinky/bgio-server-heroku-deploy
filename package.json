@@ -1,0 +1,33 @@
+{
+  "name": "bgio-server-heroku-deploy",
+  "version": "1.0.0",
+  "description": "A simple boardgame.io node server ready to deploy to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dissolutio/bgio-server-heroku-deploy.git"
+  },
+  "keywords": [
+    "bgio",
+    "boardgame.io",
+    "node",
+    "heroku",
+    "server",
+    "koa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dissolutio/bgio-server-heroku-deploy/issues"
+  },
+  "homepage": "https://github.com/Dissolutio/bgio-server-heroku-deploy#readme",
+  "dependencies": {
+    "boardgame.io": "^0.39.7",
+    "esm": "^3.2.25",
+    "react": "^16.13.1"
+  }
+}
